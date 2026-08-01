@@ -1,8 +1,25 @@
 aid: oxford-science-enterprises
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oxford-science-enterprises.png
 name: Oxford Science Enterprises
-description: 'Oxford Science Enterprises is a company surfaced as a portfolio company of gv and added
-  to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Oxford Science Enterprises (OSE) is an independent investment company and venture builder
+  that transforms cutting-edge research from the University of Oxford into commercial companies tackling
+  global challenges across deep tech, life sciences, and health tech. Operating on a "find, fund, build"
+  model, OSE provides patient capital and hands-on company-building to Oxford science founders, backing
+  50+ flagship companies with a net asset value of around £1.3bn alongside 300+ co-investors. Notable
+  outcomes include Oxford Ionics (acquired by IonQ) and Dark Blue Therapeutics. This is a company profile
+  in the API Evangelist network; OSE is an investor and venture builder and does not publish a public API
+  or developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/oxford-science-enterprises/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,21 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
 - Life Sciences
+- Deep Tech
+- HealthTech
+- Venture Capital
+- Investment
+- University Spinouts
+- Oxford
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/oxford-science-enterprises-domain-security.yml
 - type: Website
-  url: http://oxfordscienceenterprises.com
+  url: https://oxfordscienceenterprises.com
+- type: About
+  url: https://oxfordscienceenterprises.com/what
+- type: Portfolio
+  url: https://oxfordscienceenterprises.com/portfolio
+- type: Team
+  url: https://oxfordscienceenterprises.com/who
+- type: Blog
+  url: https://oxfordscienceenterprises.com/news
+- type: Support
+  url: https://oxfordscienceenterprises.com/contact
+- type: PrivacyPolicy
+  url: https://oxfordscienceenterprises.com/privacy-policy
+- type: TermsOfService
+  url: https://oxfordscienceenterprises.com/terms-conditions
