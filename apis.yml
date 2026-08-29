@@ -32,6 +32,9 @@ description: 'Oxford Science Enterprises (OSE) is an independent investment comp
   in the API Evangelist network; OSE is an investor and venture builder and does not publish a public API
   or developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/oxford-science-enterprises/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a company profile in the API Evangelist network; OSE is an investor and venture builder and does not publish a public API or developer program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
