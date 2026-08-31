@@ -53,7 +53,7 @@ tags:
 - Company
 - Life Sciences
 - Deep Tech
-- Health Tech
+- HealthTech
 - Venture Capital
 - Investment
 - University Spinouts
@@ -74,6 +74,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ionq/
+  name: IonQ
+  x-relationship: acquired
+  x-evidence: "Notable outcomes include Oxford Ionics (acquired by IonQ) and Dark Blue Therapeutics."
 - type: DomainSecurity
   url: security/oxford-science-enterprises-domain-security.yml
 - type: Website
